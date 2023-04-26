@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-container {
+    background: #122932;
+    margin-top:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    width: 50%;
+    border: 3px solid blueviolet;
+    border-radius: 8px;
+}
+#pw-header {
+    color: #8BAAAD;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#p-el {
+    color: #48BF84;
+    margin-top: 20px;
+}
+#white {
+    color: white;
+    font-weight: bold;
+}
+
+#white-two {
+    color: ivory;
+    font-weight: none;
+}
+
+#pwLength {
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2.5rem;
+}
+/* .pw-gen {
+    display: flex;
+    align-items: center;
+} */
+#pw-btn {
+    margin-top: 40px;
+    background-color: #48BF84 ;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+
+#reset-btn {
+    margin-top: 40px;
+    background-color: #48BF84 ;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    font-weight: bold;
+
+}
+
+
+.pw-btn-container {
+    /* display: flex;
+    justify-content: flex-start; */
+}
+
+.blank-btns {
+    background-color: #d2dada;
+    width: 200px;
+    height: 50px;
+    margin-top: 75px;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}

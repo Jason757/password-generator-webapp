@@ -4,15 +4,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Password Generator</title>
+    <title>Random Password Generator</title>
 </head>
 <body>
-    <main>
+    <main id="main-container">
         <div>
-            
+            <p id="p-el"><span id="white">Generate a</span><br> random password <br>
+                <span id="white-two">Never use an insecure password again</span>
+            </p>
+            <hr>
+            <div class="pw-gen">
+                <h3 id="pw-header">Password Length:</h3>
+                <input type="number" value="20" min="10" max="20" id="pwLength">
+                <button id="pw-btn" onclick="generateRandomPassword()">Generate passwords</button>
+                <button id="reset-btn" onclick="resetPasswords()">Reset passwords</button>
+            </div>
+            <!-- <hr> -->
+            <div class="pw-btn-container">
+                <button class="blank-btns"  id="blank-btn-1"></button> 
+                <button class="blank-btns"  id="blank-btn-2"></button>
+            </div>
         </div>
 
     </main>
     <script src="index.js"></script>
+    <br>
 </body>
 </html>
